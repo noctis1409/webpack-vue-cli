@@ -8,7 +8,7 @@ let webpackDev = {
       filename: 'index.html',
       template: './public/index.html'
     })
-  ]
+  ],
+  mode: 'development'
 }
-
 module.exports = merge(webpackComm, webpackDev)
