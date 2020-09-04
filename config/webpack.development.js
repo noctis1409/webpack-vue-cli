@@ -9,6 +9,10 @@ let webpackDev = {
       template: './public/index.html'
     })
   ],
+  devServer: {
+    quiet: true,
+    host: '0.0.0.0',
+  },
   mode: 'development'
 }
 module.exports = merge(webpackComm, webpackDev)
