@@ -7,10 +7,12 @@
 1. style-loader
 2. css-loader
 3. postcss-loader
+4. file-loader
 
 ## 目前使用的 plugin
 
 1. html-webpack-plugin
+2. clean-webpack-plugin
 
 ## 其他技术
 
