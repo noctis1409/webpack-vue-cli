@@ -1,4 +1,7 @@
+import Vue from 'vue'
+import App from './App.vue'
 import './assets/css/style.css'
 
-console.log('haha')
-document.getElementById('app').style.color = '#ff6666'
+new Vue({
+  render: (h) => h(App)
+}).$mount('#app')

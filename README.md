@@ -1,6 +1,6 @@
 # webpack-vue-cli
 
-使用 webpack4 搭建的 vue 脚手架。（搭建中）
+使用 webpack4 搭建的 vue 脚手架。
 
 ## 目前使用的 loader
 
@@ -8,6 +8,8 @@
 2. css-loader
 3. postcss-loader
 4. file-loader
+5. babel-loader
+6. vue-loader
 
 ## 目前使用的 plugin
 
