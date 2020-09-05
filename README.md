@@ -15,8 +15,11 @@
 
 1. html-webpack-plugin
 2. clean-webpack-plugin
+3. copy-webpack-plugin
 
 ## 其他技术
 
 1. 使用 webpack-dev-server 搭建开发者服务器。
 2. 使用 webpack-merge 分离 webpack 配置文件。
+3. vue router
+4. vuex

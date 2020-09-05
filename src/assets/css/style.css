@@ -1,9 +1,10 @@
-::placeholder {
-  color: #66ccff;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#img {
-  width: 720px;
-  height: 720px;
-  background: url(../images/NASA.jpg) no-repeat center center;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }

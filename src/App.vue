@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>webpack-vue-cli</h1>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
@@ -9,22 +9,8 @@ export default {}
 </script>
 
 <style scoped>
-@keyframes color {
-  0% {
-    color: #ff6666;
-  }
-
-  50% {
-    color: #66ccff;
-  }
-
-  100% {
-    color: #ff6666;
-  }
-}
-h1 {
-  text-align: center;
-  color: #ff6666;
-  animation: color 3s infinite linear;
+#app {
+  width: 100%;
+  height: 100%;
 }
 </style>
