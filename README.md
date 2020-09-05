@@ -1,6 +1,18 @@
 # webpack-vue-cli
 
-使用 webpack4 搭建的 vue 脚手架。
+使用 webpack4 搭建的 vue 脚手架。包含 vue Router 和 vuex。
+
+## 如何使用
+
+``` shell
+npm install
+
+# 开发模式
+npm run dev
+
+# 生产模式
+npm run build
+```
 
 ## 目前使用的 loader
 
